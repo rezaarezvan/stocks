@@ -13,7 +13,7 @@ plt.style.use('fivethirtyeight')
 #dataset of amazon stock info 
 start = dt.datetime.now() - dt.timedelta(days=365 * 30)
 end   = dt.datetime.now()
-df = web.DataReader('AMZN',data_source='yahoo',start=start,end=end)
+df = web.DataReader('BTC-USD',data_source='yahoo',start=start,end=end)
 print(df)
 
 #Get the nuhmber of rows and columns in the data set
